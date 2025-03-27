@@ -1,7 +1,7 @@
 ifndef SV_UTILS
 SV_UTILS=1
 
-SV_UTILS_PROJECT_ROOT:=$(shell git rev-parse --show-toplevel)
+SV_UTILS_PROJECT_ROOT:=$(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
 SV_UTILS_DUMMY_INCLUDE:=-I$(SV_UTILS_PROJECT_ROOT)/include -I$(SV_UTILS_PROJECT_ROOT)/include/dummy
 SV_UTILS_SV_INCLUDE:=-I$(SV_UTILS_PROJECT_ROOT)/include -I$(SV_UTILS_PROJECT_ROOT)/include/sv
