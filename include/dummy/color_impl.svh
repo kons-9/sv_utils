@@ -1,0 +1,15 @@
+`ifndef COLOR_IMPL_SVH
+`define COLOR_IMPL_SVH
+
+`define BLACK_COLOR_IMPL
+`define RED_COLOR_IMPL
+`define GREEN_COLOR_IMPL 
+`define YELLOW_COLOR_IMPL
+`define BLUE_COLOR_IMPL
+`define MAGENTA_COLOR_IMPL
+`define CYAN_COLOR_IMPL
+`define WHITE_COLOR_IMPL
+`define GRAY_COLOR_IMPL
+`define RESET_COLOR_IMPL
+
+`endif
